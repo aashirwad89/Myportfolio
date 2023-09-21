@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://kit.fontawesome.com/571e6d2ade.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container"><nav>
+        <img src="logo2.png" class="logo">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="Prowess">Prowess</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>WEB DEVELOPER</p>
+            <h1>Hello Everyone,<br> I'm <span>Aashirwad Singh</span> from LNCT</h1>
+        </div>
+    </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="my photo.png.jpg" class="photo-edit">
+                </div>
+                <div class="about-col2">
+                    <h2 class="sub-title">About Me</h2>
+                    <p>Hello Everyone, I'm Aashirwad Singh a Student with a passion for Web development.Currently pursuing Btech in computer science engineering(Specialization- Information technology) from Lakshmi Narain College of Technology, Bhopal(M.P.). I'm Excited to explore new oppurtunities and collaborate with like minded professionals.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Web Development</span><br/>HTML , CSS , JAVASCRPT</li>
+                            <li><span>Graphic Designing</span><br/>CANVA</li>
+                            <li><span>Programming Language</span><br/>JAVA</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2021-22</span><br/>Freelancing(Content Writer & Affiliate Marketing)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2023-26</span><br/>Lakhmi Narain College of Technolgy pursuing BTECH in CSE(IT)</li>
+                            <li><span>2019-23</span><br/>The Oxford HS School,Sehore<br>Grade= 10th-12th (PCM)</li>
+                            <li><span>2010-2018</span><br/>GPM Convent School, Ichhawar<br>Grade= 1st-9th</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------services------ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Prowess</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-computer"></i>
+                    <h2>Information Technology</h2>
+                    <p>The IT sector is a dynamic and ever-evolving field that plays pivotal role in shaping our modern world. I'm gaining experience and learning in web development so I can contribute in modern technology</p>
+                    <a href="https://en.wikipedia.org/wiki/Information_technology">Read More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>    
+                    <h2>Web Development</h2>
+                    <p>Having a clean hands on HTML, CSS and JS by creating portfolio, Amazon & Netflix Clone</p>
+                    <a href="https://en.wikipedia.org/wiki/Web_development">Read More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-js"></i>
+                    <h2>Programming Language</h2>
+                    <p>Currently learning the most friendly language JAVASCRIPT(JS) and gaining experience in this field</p>
+                    <a href="https://en.wikipedia.org/wiki/JavaScript">Read More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-sketch"></i>
+                    <h2>Graphic Designing</h2>
+                    <p>Also have an good experience in Graphic Designing especially friendly with Canva and currently more exploring this field</p>
+                    <a href="https://en.wikipedia.org/wiki/Graphic_design">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------portfoloio------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work1.jpg">
+                    <div class="layer">
+                        <h3>Amazon Clone</h3>
+                        <p>I have successfully created Amazon Clone Web Page(ecommerce store) using HTML & CSS to graceup my skills</p>
+                        <a href="https://amazonclone-bay-tau.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work2.jpg">
+                    <div class="layer">
+                        <h3>Netflix Clone</h3>
+                        <p>I have successfully created Netflix Clone Web Page(entertainment web) using HTML, CSS & JS to graceup my skills</p>
+                        <a href="https://nwtflix-clone.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work3.jpg">
+                    <div class="layer">
+                        <h3> My Portfolio</h3>
+                        <p>I have successfully created Portfolio Web Page using HTML, CSS & JS to graceup my skills which you are currently exploring</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work4.jpg">
+                    <div class="layer">
+                        <h3>More Projects</h3>
+                        <p>Currently working on it (Coming Soon)</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- --------contact--------- -->
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>studyonly806@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>000-000-0000</p>
+                    <div class="social-icon">
+                        <a href="#"><i class="fa-brands fa-square-facebook"></i><p>Aashirwad Singh</p></a>
+                        <a href="#"><i c0lass="fa-brands fa-instagram"></i><p>aashirwad26</p></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i><p>Aashirwad Singh</p></a>
+                        <a href="#"><i class="fa-brands fa-telegram"></i><p>Aashirwad26</p></a>
+                    </div>
+                    <a href="#" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" : required> 
+                        <input type="email"  name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                     </form>
+                </div>
+            </div>
+        </div>
+     </div>
+
+<h1 class="conclu">Thank You</h1>
+
+
+<script>
+
+
+   var tablinks = document.getElementsByClassName("tab-links")
+   var tabcontents = document.getElementsByClassName("tab-contents")
+
+   function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+   }
+
+
+
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+
+
+
+
+    
+    
+</body>
+</html>
